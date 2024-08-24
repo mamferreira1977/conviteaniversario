@@ -1,0 +1,134 @@
+/* styles.css */
+
+/* Reset básico */
+body, h1, h2, p, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações globais */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #59e789;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Seção Hero */
+.hero {
+    background: #8ab5ce;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Seção Detalhes */
+.details {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.details h2 {
+    margin-bottom: 10px;
+}
+
+/* Seção RSVP */
+.rsvp {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+.rsvp form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rsvp label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.rsvp input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.rsvp button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.rsvp button:hover {
+    background-color: #0056b3;
+}
+
+/* Rodapé */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    .hero h2 {
+        font-size: 1.5em;
+    }
+
+    .details h2 {
+        font-size: 1.5em;
+    }
+    
+    .rsvp button {
+        width: 100%;
+        font-size: 1.2em;
+    }
+}
